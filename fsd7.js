@@ -25,10 +25,10 @@ console.log(generateArray(1, 10, 2)); // Example: [1, 3, 5, 7, 9]
 console.log("-----------------------------------------------------------------------------------------------------------------------------------------")
 
 // Reverse an array
-function reverseArray(arr) {
+function reverseArray(k) {
     let reversed = [];
-    for (let i = arr.length - 1; i >= 0; i--) {
-        reversed.push(arr[i]);
+    for (let i = k.length - 1; i >= 0; i--) {
+        reversed.push(k[i]);
     }
     return reversed;
 }

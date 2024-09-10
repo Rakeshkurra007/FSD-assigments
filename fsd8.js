@@ -9,14 +9,6 @@ console.log(flattenedArray);
 
 
 
-function loop(value, test, update, body) {
-    while (test(value)) {
-        body(value);
-        value = update(value);
-    }
-}
-
-loop(3, function(n) { return n > 0; }, function(n) { return n - 1; }, console.log);
 
 
 console.log("every function using loop");
